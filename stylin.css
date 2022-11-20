@@ -1,0 +1,86 @@
+body {
+background-color: silver;
+}
+h1 {border:2px dotted white;
+  font-family: arial;
+  font-size: 60px;
+  text-align: center;
+  color: graphite;
+  font-style: normal;
+  margin-top: 85px;
+}
+h2{
+font-family: rockwell;
+font-size: 30px;
+text-align: center;
+color: white;
+font-style: italic;
+margin-top: 35px;
+}
+h3 {font-family: rockwell;
+font-size: 20px;
+text-align: center;
+color: black;
+margin-top: 35px;
+}
+p{font-family: times;
+font-size: 20px;
+color: white;
+text-align: center;
+}
+
+table.center {margin-right: auto;
+margin-left: auto;
+text-align: center;}
+
+.abc {border:2px dotted white;
+font-size: 20px;
+margin: 10px 10px}
+
+a:link, a:visited {
+  background-color: white;
+  color: grey;
+  padding: 28px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+a:hover, a:active {
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: graphite;
+  font-style: italic;
+  font-size: 20px;
+  width: 23%;
+  text-align: center;
+}
+/* invoice button style */
+button{
+  margin-top: 70px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+button{
+  padding:20px 42px;
+  font-family:helvetica;
+  font-size:19px;
+  font-weight:100;
+  color:#fff;
+  background: #008CBA;
+  border:0;
+  font-weight:100;
+}
+button:hover{
+  background: #3B5C76;
+}
